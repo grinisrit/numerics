@@ -1,0 +1,10 @@
+name: numerics-2022
+channels:
+  - default
+  - nvidia
+dependencies:
+  - numba
+  - pytorch
+  - matplotlib
+  - cuda-nvcc
+  - jupyter
