@@ -24,11 +24,11 @@ There, under **Packages**, you will probably have **Pip - Default**.
 Click **Change**, and change your package manager to **Conda**.
 1. **Install the required packages**:
    * **via terminal**: Go to **Tools -> Terminal** and install the required packages by typing in commands:
-   ```shell
-   conda install pytorch numba -y
-   conda install -c nvidia cuda-nvcc -y
-   ```
-   You will need to perform this setup every time the mahine is restarted.
+     ```shell
+     conda install pytorch numba -y
+     conda install -c nvidia cuda-nvcc -y
+     ```
+     You will need to perform this setup every time the mahine is restarted.
    * **via `init.sh`**: Go to **Environment** menu and click **init.sh**. Add the commands from the above to the file.
    Now the machine will install the dependencies automatically every time it starts up (this increases startup times greatly though).
 
