@@ -52,11 +52,26 @@ You should be good to go.
 
 ## Locally on your computer
 
-### TODO: This section
-
 We encourage you use a Linux distribution to run the notebooks.
 The notebooks weren't tested on Windows or Mac and CUDA does not even work on newer Macs at all.
 
-If you're on Windows and don't want to set up a graphical VM or dual boot, take a look at [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
+If you're on Windows and don't want to set up a graphical VM or dual boot, take a look at [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) ([it even supports CUDA](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)).
+On Mac, you can run Linux via [Lima](https://github.com/lima-vm/lima).
 
-We provide an **env.yml** (TODO: we don't yet) file to set up a **Conda** environment with all needed packages.
+We provide a [YML](numerics-env.yml) file to set up a **Conda** environment with all needed packages.
+
+0. _It is expected that you already have **Conda** and **g++** installed_
+1. Clone or download this repository
+1. Navigate to the repository folder and run
+   ```
+   conda env create -f numerics-env.yml
+   ```
+1. Conda will create a virtual environment with all dependencies (including **Jupyter**) installed
+1. Switch to a newly created environment with
+   ```
+   conda activate numerics-2022
+   ```
+1. Run **Jupyter** with
+   ```
+   jupyter notebook
+   ```
