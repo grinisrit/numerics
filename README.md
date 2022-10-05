@@ -8,7 +8,7 @@ Of course, you are welcome to try and set everything up your own way.*
   * [For CUDA machines with CUDA examples](#for-cuda-machines-with-cuda-examples)
   * [Without CUDA](#without-cuda)
   * [Per-notebook setup](#per-notebook-setup)
-    * [Seminar 1](#seminar-1)
+    * [Multidimensional Arrays](#01---multidimensional-arrays)
 * [Locally on your computer](#locally-on-your-computer)
 
 ## On JetBrains DataLore
@@ -43,9 +43,9 @@ The only thing you need to do is install **numba**:
 
 ### Per-notebook setup
 
-#### Seminar 1
+#### 01 &mdash;  Multidimensional Arrays
 
-**seminar1.ipynb** includes a demonstration C++ Python module compilation via Torch extensions.
+**01-multidimensional-arrays.ipynb** includes a demonstration C++ Python module compilation via Torch extensions.
 Code for this example is in the file **cpp_intro.cc**.
 To upload it to **DataLore** go to **Attached data** via the left menu, then under **Notebook files** click **Upload files...**
 You should be good to go.
